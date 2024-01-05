@@ -1,5 +1,5 @@
 ---
-title: "AFAS file connector for key management system"
+title: "📊 AFAS file connector for key management system"
 date: 2023-10-05
 categories: [Projects, 🖥️ Software Development]
 tags: [AFAS 📊]
