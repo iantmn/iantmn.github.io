@@ -1,5 +1,5 @@
 ---
-title: "🤖 Capstone of the Minor Engineering with Artificial Intelligence"
+title: "🤖 Capstone project of the Minor Engineering with Artificial Intelligence: Using AI to classify how a project is used"
 date: 2023-02-13
 categories: [Projects, 🖥️ Software Development]
 tags: [Education 🎓, AI 🤖]
