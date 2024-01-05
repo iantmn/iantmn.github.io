@@ -6,7 +6,7 @@ tags: [Education 🎓, AI 🤖]
 pin: true
 ---
 
-For the full report, [click here!](/assets/capstoneAI-report.pdf)
+For the full report [click here!](/assets/capstoneAI-report.pdf)
 
 For my minor Engineering with Artificial Intelligence I did a capstone project. The goal of this project was to create a tool that enables Industrial Designers to analyse how a product is used in the real world using sensors. Normally this is done by using a video camera and manually analysing the video. This is a time consuming process and it is difficult to get accurate results. The tool we created uses a machine learning model to analyse the sensor data and automatically detect the usage of the product. This way the Industrial Designer can get accurate results in a short amount of time.
 
