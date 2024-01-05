@@ -1,5 +1,5 @@
 ---
-title: "Netplan CLI tool"
+title: "📊 Zabbix API connector"
 date: 2023-04-23
 categories: [Projects, 🖥️ Software Development]
 tags: [Zabbix 📊, Linux 🐧, API ⚙️]

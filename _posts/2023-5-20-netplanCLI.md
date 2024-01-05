@@ -1,5 +1,5 @@
 ---
-title: "Netplan CLI tool"
+title: "🛜 Netplan CLI tool"
 date: 2023-05-20
 categories: [Projects, 🖥️ Software Development]
 tags: [Network 🖧, Linux 🐧, netplan 🛜]
