@@ -25,7 +25,7 @@ Technical University of Delft - Delft<br>
 
 ## 🎓 Courses and Certificates
 ### CS50: Introduction to Computer Science
-2023 - Harvard University - More info [here](https://cs50.harvard.edu/x/2024/)
+2023 - Harvard University - More info [here](https://cs50.harvard.edu/x/2024/) and [here](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science)
 ### Technasium certificate
 2020 - Stichting Technasium - More info [here](https://technasium.nl/what-is-technasium/)
 ### Tutor in het probleemgestuurd onderwijs (Problem based learning tutor)
