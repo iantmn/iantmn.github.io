@@ -1,10 +1,12 @@
 ---
-title: "Capstone of the Minor Engineering with Artificial Intelligence"
+title: "🤖 Capstone of the Minor Engineering with Artificial Intelligence"
 date: 2023-02-13
 categories: [Projects, 🖥️ Software Development]
 tags: [Education 🎓, AI 🤖]
 pin: true
 ---
+
+For the full report, [click here!](/assets/capstoneAI-report.pdf)
 
 For my minor Engineering with Artificial Intelligence I did a capstone project. The goal of this project was to create a tool that enables Industrial Designers to analyse how a product is used in the real world using sensors. Normally this is done by using a video camera and manually analysing the video. This is a time consuming process and it is difficult to get accurate results. The tool we created uses a machine learning model to analyse the sensor data and automatically detect the usage of the product. This way the Industrial Designer can get accurate results in a short amount of time.
 
@@ -23,5 +25,3 @@ At the end we also made a basic type of novelty detection. This is a form of [an
 We also made a user manual to explain how to use the tool. This was in the form of a guided tour in the Jupyter notebook and a [website](https://datacentricdesign.github.io/iot-ml-design-kit/).
 
 For more information about the project, see the [GitHub repository](https://github.com/iantmn/Capstone-AI-IoT) or [the website we made](https://datacentricdesign.github.io/iot-ml-design-kit/) for the project.
-
-Do you want to read the report? You can find it [here](/assets/capstoneAI-report.pdf)
