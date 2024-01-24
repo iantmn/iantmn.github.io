@@ -44,32 +44,49 @@ Technical University of Delft - Delft<br>
   * Web scraping
   * Data visualisation
   * Machine learning
+* Jupyter Notebook
 * Circuitpython
-* Bash
+* MySQL 
+* Bash / Shell
 * HTML / CSS
+* Markdown
+* javascript (learning)
 * GO (learning)
+* C# (learning)
+* Java (learning)
 ### technologies
 * Git
 * Github
+  * Including pages and actions
+* Docker (learning)
 * Linux
   * Ubuntu
   * Debian
+  * NixOS
 * Windows
 * Raspberry Pi
 * Arduino
 * Office 365 & Azure management
 * Wordpress
+* Jekyll (learning)
 ### Design
-* Adobe Premiere Pro
+* Adobe suite
+  * Photoshop
+  * InDesign
+  * Premiere Pro
 * Figma
+* Solidworks (Basics)
+* Blender (learning)
 ### Languages
 * Dutch (native)
 * English (proficient)
   * Anglia AcCEPT proficiency certificate
 ### Other
 * Networking
+* initiative
 * Presenting
 * Customer support
+* Project management
 * Problem solving
 * Teamwork
 * Creativity
