@@ -19,7 +19,7 @@ title: Ian Tiemann # the main title
 tagline: Software Engineer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  I am a software Engineer with a background in Industrial Design Engineering at the TU Delft.
+  I am Ian Tiemann, a software Engineer with a background in Industrial Design Engineering at the TU Delft.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -193,3 +193,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
