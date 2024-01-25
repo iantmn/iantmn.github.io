@@ -1,5 +1,6 @@
 ---
 title: "🏢 TNO portfolio management: How to decide what is worth our time?"
+description: "For TNO, a company that does research into future technologie, we did a project about the way they decide what projects are worth their time and what projects are not."
 date: 2023-05-17
 permalink: /posts/2023/05/TNO-EIDOS/
 categories: [Projects, 🏢 Business]

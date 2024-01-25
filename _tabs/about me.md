@@ -1,6 +1,6 @@
 ---
 icon: fas fa-user
-permalink: /about-me
+permalink: /about-me/
 order: 5
 ---
 

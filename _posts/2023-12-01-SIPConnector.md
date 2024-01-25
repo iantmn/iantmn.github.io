@@ -1,5 +1,6 @@
 ---
 title: "📞 SIP + Vtiger CRM Connector"
+description: "I created a connector between the SIP server and the Vtiger CRM system to automate the process of creating tickets."
 date: 2023-12-01
 permalink: /posts/2023/12/SIPVtigerCRM/
 categories: [Projects, 🖥️ Software Development]

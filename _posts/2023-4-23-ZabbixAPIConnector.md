@@ -1,5 +1,6 @@
 ---
 title: "📊 Zabbix API connector"
+description: "I created a connector between the Zabbix API and the API of my client's product. This way the client can monitor their product in Zabbix."
 date: 2023-04-23
 permalink: /posts/2023/04/ZabbixAPIConnector/
 categories: [Projects, 🖥️ Software Development]

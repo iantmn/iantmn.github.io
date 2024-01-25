@@ -1,5 +1,6 @@
 ---
 title: "🛜 Netplan CLI tool"
+description: "I created a CLI tool for Netplan.io to make it easier to configure the network on Linux."
 date: 2023-05-20
 permalink: /posts/2023/05/NetplanCLI/
 categories: [Projects, 🖥️ Software Development]

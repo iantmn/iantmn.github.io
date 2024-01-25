@@ -1,5 +1,6 @@
 ---
 title: "📊 AFAS file connector for key management system"
+description: "I made a connector for AFAS Software, a Dutch ERP system, to connect it to a key management system."
 date: 2023-10-05
 permalink: /posts/2023/10/AFASConnector/
 categories: [Projects, 🖥️ Software Development]

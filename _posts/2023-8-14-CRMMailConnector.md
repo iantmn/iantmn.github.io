@@ -1,5 +1,6 @@
 ---
 title: "📩 Email + Vtiger CRM ticker connector"
+description: "I created a connector between the email server and the Vtiger CRM system to automate the process of updating tickets."
 date: 2023-08-14
 permalink: /posts/2023/08/EmailVtigerCRM/
 categories: [Projects, 🖥️ Software Development]
