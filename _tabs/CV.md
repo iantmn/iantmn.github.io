@@ -1,6 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-address-card
+permalink: /CV
 order: 4
 ---
 

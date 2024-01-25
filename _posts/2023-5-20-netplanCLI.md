@@ -1,6 +1,7 @@
 ---
 title: "🛜 Netplan CLI tool"
 date: 2023-05-20
+permalink: /posts/2023/05/NetplanCLI/
 categories: [Projects, 🖥️ Software Development]
 tags: [Network 🖧, Linux 🐧, netplan 🛜]
 pin: false

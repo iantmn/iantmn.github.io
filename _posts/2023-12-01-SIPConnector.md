@@ -1,6 +1,7 @@
 ---
 title: "📞 SIP + Vtiger CRM Connector"
 date: 2023-12-01
+permalink: /posts/2023/12/SIPVtigerCRM/
 categories: [Projects, 🖥️ Software Development]
 tags: [SIP 📞, Vtiger CRM 📊]
 pin: false

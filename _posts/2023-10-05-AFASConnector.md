@@ -1,6 +1,7 @@
 ---
 title: "📊 AFAS file connector for key management system"
 date: 2023-10-05
+permalink: /posts/2023/10/AFASConnector/
 categories: [Projects, 🖥️ Software Development]
 tags: [AFAS 📊]
 pin: false

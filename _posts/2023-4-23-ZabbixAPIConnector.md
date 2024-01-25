@@ -1,6 +1,7 @@
 ---
 title: "📊 Zabbix API connector"
 date: 2023-04-23
+permalink: /posts/2023/04/ZabbixAPIConnector/
 categories: [Projects, 🖥️ Software Development]
 tags: [Zabbix 📊, Linux 🐧, API ⚙️]
 pin: false

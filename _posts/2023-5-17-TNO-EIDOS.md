@@ -1,6 +1,7 @@
 ---
 title: "🏢 TNO portfolio management: How to decide what is worth our time?"
 date: 2023-05-17
+permalink: /posts/2023/05/TNO-EIDOS/
 categories: [Projects, 🏢 Business]
 tags: [Business model🏢, portfolio management 🧑‍💼]
 pin: false

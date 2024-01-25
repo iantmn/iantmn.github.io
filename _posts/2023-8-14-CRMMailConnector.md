@@ -1,6 +1,7 @@
 ---
 title: "📩 Email + Vtiger CRM ticker connector"
 date: 2023-08-14
+permalink: /posts/2023/08/EmailVtigerCRM/
 categories: [Projects, 🖥️ Software Development]
 tags: [Email 📩, Vtiger CRM 📊]
 pin: false
