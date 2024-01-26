@@ -95,6 +95,7 @@ Technical University of Delft - Delft<br>
 * Dutch (native)
 * English (proficient)
   * Anglia AcCEPT proficiency certificate
+
 ### Other
 * Problem solving
 * Adaptability
@@ -110,12 +111,78 @@ Technical University of Delft - Delft<br>
 
 <div class="row">
     <div class="col-md-6">
-        **some code block here**
-        **another code block here**
+      ### Programming languages / script languages
+      * Python
+        * Django
+        * API's
+        * File handling
+        * Data processing
+        * Database connection
+        * Web scraping
+        * Data science and visualization
+          * Pandas
+          * Numpy
+          * Matplotlib
+          * Jupyter Notebook
+        * Machine learning
+          * Scikit-learn
+          * Tensorflow
+      * Circuitpython
+      * MySQL
+      * Bash / Shell
+      * HTML / CSS
+      * Markdown
+      * javascript (learning)
+      * GO (learning)
+      * C# (learning)
+      * Java (learning)
+      ### Design skills
+      * Design thinking
+      * User research
+      * Prototyping
+      * Stakeholder management
+      ### Languages
+      * Dutch (native)
+      * English (proficient)
+        * Anglia AcCEPT proficiency certificate
     </div>
     <div class="col-md-6">
-        **some text here**
-        ##some header here
-        ###something else here
+      ### technologies
+      * Git
+      * Github
+        * Including pages and actions
+      * Docker (learning)
+      * Linux
+        * Ubuntu
+        * Debian
+        * NixOS
+        * Manjaro
+      * Windows
+      * Raspberry Pi
+      * Arduino
+      * Office 365 & Azure management
+      * Wordpress
+      * REST API's
+      * Datastructures and algorithms
+      * Jekyll (learning)
+      ### Design software
+      * Adobe suite
+        * Photoshop
+        * InDesign
+        * Premiere Pro
+      * Figma
+      * Solidworks (Basics)
+      * Blender (learning)
+      ### Other
+      * Problem solving
+      * Adaptability
+      * Communication
+      * Networking
+      * initiative
+      * Presenting
+      * Customer support
+      * Project management
+      * Teamwork
+      * Creativity
     </div>
 </div>
