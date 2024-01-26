@@ -43,11 +43,16 @@ Technical University of Delft - Delft<br>
   * Data processing
   * Database connection
   * Web scraping
-  * Data visualisation
+  * Data science and visualization
+    * Pandas
+    * Numpy
+    * Matplotlib
+    * Jupyter Notebook
   * Machine learning
-* Jupyter Notebook
+    * Scikit-learn
+    * Tensorflow
 * Circuitpython
-* MySQL 
+* MySQL
 * Bash / Shell
 * HTML / CSS
 * Markdown
@@ -64,13 +69,21 @@ Technical University of Delft - Delft<br>
   * Ubuntu
   * Debian
   * NixOS
+  * Manjaro
 * Windows
 * Raspberry Pi
 * Arduino
 * Office 365 & Azure management
 * Wordpress
+* REST API's
+* Datastructures and algorithms
 * Jekyll (learning)
-### Design
+### Design skills
+* Design thinking
+* User research
+* Prototyping
+* Stakeholder management
+### Design software
 * Adobe suite
   * Photoshop
   * InDesign
@@ -83,11 +96,26 @@ Technical University of Delft - Delft<br>
 * English (proficient)
   * Anglia AcCEPT proficiency certificate
 ### Other
+* Problem solving
+* Adaptability
+* Communication
 * Networking
 * initiative
 * Presenting
 * Customer support
 * Project management
-* Problem solving
 * Teamwork
 * Creativity
+
+
+<div class="row">
+    <div class="col-md-6">
+        **some code block here**
+        **another code block here**
+    </div>
+    <div class="col-md-6">
+        **some text here**
+        ##some header here
+        ###something else here
+    </div>
+</div>
