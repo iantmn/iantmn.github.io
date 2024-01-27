@@ -36,7 +36,7 @@ Technical University of Delft - Delft<br>
 2017 - Anglia - More info [here](https://www.anglia.org/anglia-proficiency-exam-c1-cefr)
 
 ## 🛠️ Skills
-### Programming languages / script languages
+### 🖥️ Programming languages / script languages
 * Python
   * Django
   * API's
@@ -62,7 +62,7 @@ Technical University of Delft - Delft<br>
 * C# (learning)
 * Java (learning)
 
-### technologies
+### 🤖 technologies
 * Git
 * Github
   * Including pages and actions
@@ -82,13 +82,13 @@ Technical University of Delft - Delft<br>
 * Datastructures and algorithms
 * Jenkins (learning)
 
-### Design skills
+### 📐 Design skills
 * Design thinking
 * User research
 * Prototyping
 * Stakeholder management
 
-### Design software
+### 💻 Design software
 * Adobe suite
   * Photoshop
   * InDesign
@@ -97,12 +97,12 @@ Technical University of Delft - Delft<br>
 * Solidworks (Basics)
 * Blender (learning)
 
-### Languages
+### 💬 Languages
 * Dutch (native)
 * English (proficient)
   * Anglia AcCEPT proficiency certificate
 
-### Other
+### 🪄 Other
 * Problem solving
 * Adaptability
 * Communication
