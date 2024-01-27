@@ -7,27 +7,28 @@ order: 4
 
 # Ian Tiemann
 ## 🏫 Education
-### B.S. in Industial design engineering
-Technical University of Delft, Delft, 2024
-Minor: Engineering with Artifical Intelligence
-### Atheneum NG+NT
+### B.S. Industial design engineering (Faculty Industrial Design Engineering)
+Technical University of Delft, Delft, 2024 (expected)
+### Minor Engineering with Artificial Intelligence (Faculty Electrical Engineering, Mathematics and Computer Science )
+Technical University of Delft, Delft, 2023
+### Atheneum NG+NT (Pre-university education with Science, Biology and technology profile)
 Helinium, Hellevoetsluis, 2020
 
 ## 🏭 Experience
 ### Software engineer & Support engineer
 NetW - Stellendam<br>
 2016 - Now<br>
-*Creating and maintaining software for an IT company. We use this software inhouse, but we also make custom software for our clients. I setup maintain networks, servers, workstations and more and I deliver customer support to our clients.*
+*I was tasked with creating and maintaining software for an IT company. We use this software inhouse, but we also make custom software for our clients. I also setup and maintain networks, servers, workstations and more, I deliver customer support to our clients and I help with the development of new products and services.*
 
 ### Student assistant
 Technical University of Delft - Delft<br>
 2021 - Now<br>
-*Helping students with their projects and assignments for multiple courses about programming in python and microcontrollers using circuitpython.*
+*I helped students with their projects and assignments for multiple courses about programming in python and microcontrollers using circuitpython.*
 
 ## 🎓 Courses and Certificates
 ### CS50: Introduction to Computer Science
 2023 - Harvard University - More info [here](https://cs50.harvard.edu/x/2024/) and [here](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science)
-### Technasium certificate
+### Technasium certificate (Technology project based education)
 2020 - Stichting Technasium - More info [here](https://technasium.nl/what-is-technasium/)
 ### Tutor in het probleemgestuurd onderwijs (Problem based learning tutor)
 2017 - Erasmus Risbo
@@ -60,6 +61,7 @@ Technical University of Delft - Delft<br>
 * GO (learning)
 * C# (learning)
 * Java (learning)
+
 ### technologies
 * Git
 * Github
@@ -73,16 +75,19 @@ Technical University of Delft - Delft<br>
 * Windows
 * Raspberry Pi
 * Arduino
-* Office 365 & Azure management
+* M4 express microcontroller (Circuitpython)
+* Office 365 admin & Azure management
 * Wordpress
 * REST API's
 * Datastructures and algorithms
-* Jekyll (learning)
+* Jenkins (learning)
+
 ### Design skills
 * Design thinking
 * User research
 * Prototyping
 * Stakeholder management
+
 ### Design software
 * Adobe suite
   * Photoshop
@@ -91,6 +96,7 @@ Technical University of Delft - Delft<br>
 * Figma
 * Solidworks (Basics)
 * Blender (learning)
+
 ### Languages
 * Dutch (native)
 * English (proficient)
