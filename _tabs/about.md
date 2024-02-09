@@ -12,7 +12,7 @@ During my study Industrial Design Engineering I have learned to design products 
 
 Design thinking is a method that is used to solve problems and find desirable solutions for users. It is a human-centered approach to innovation that draws from the designer's toolkit to integrate the needs of people, the possibilities of technology, and the requirements for business success.
 
-I did a minor in Engineering with Artificial Intelligence, so I also have some experience with machine learning and data science, which I found very interesting. During this minor I have made a product that can analyse how a design concept is being used by the end-user to inform the designer about the use of the product. See the project [here](https://iantiemann.nl/posts/MinorCapstoneAI/).
+I did a minor in Engineering with Artificial Intelligence, so I also have some experience with machine learning and data science, which I found very interesting. During this minor I have made a product that can analyse how a design concept is being used by the end-user to inform the designer about the use of the product. See the project [here]({{ site.baseurl }}{% link _posts/2023-2-13-MinorCapstoneAI.md %}).
 
 During my studies I have also done some projects with microcontrollers, like the Arduino and Circuitpython devices. I have also done some projects with the Raspberry Pi and other single board computers.
 

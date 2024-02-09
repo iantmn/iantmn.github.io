@@ -39,6 +39,7 @@ Technical University of Delft - Delft<br>
 ### 🖥️ Programming languages / script languages
 * Python
   * Django
+    * Rest framework
   * API's
   * File handling
   * Data processing
