@@ -17,7 +17,7 @@ Helinium, Hellevoetsluis, 2020
 ## 🏭 Experience
 ### Software engineer & Support engineer
 NetW - Stellendam<br>
-2016 - Now<br>
+2018 - Now<br>
 *I was tasked with creating and maintaining software for an IT company. We use this software inhouse, but we also make custom software for our clients. I also setup and maintain networks, servers, workstations and more, I deliver customer support to our clients and I help with the development of new products and services.*
 
 ### Student assistant
