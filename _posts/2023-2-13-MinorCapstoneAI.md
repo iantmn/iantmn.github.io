@@ -1,6 +1,6 @@
 ---
-title: "🤖 Capstone project of the Minor Engineering with Artificial Intelligence: Using AI to classify how a project is used"
-description: "For my minor Engineering with Artificial Intelligence I did a capstone project. The goal of this project was to create a tool that enables Industrial Designers to analyse how a product is used in the real world using sensors."
+title: "🤖 Capstone project of the Minor Engineering with Artificial Intelligence: Using AI to classify how a product is used"
+description: "For my minor Engineering with Artificial Intelligence I did a capstone project. The goal of this product was to create a tool that enables Industrial Designers to analyse how a product is used in the real world using sensors."
 date: 2023-02-13
 permalink: /posts/2023/02/MinorCapstoneAI/
 categories: [Projects, 🖥️ Software Development]
