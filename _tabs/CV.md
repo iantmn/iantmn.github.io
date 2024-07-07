@@ -8,7 +8,7 @@ order: 4
 # Ian Tiemann
 ## 🏫 Education
 ### B.S. Industial design engineering (Faculty Industrial Design Engineering)
-Technical University of Delft, Delft, 2024 (expected)
+Technical University of Delft, Delft, 2025 (expected)
 ### Minor Engineering with Artificial Intelligence (Faculty Electrical Engineering, Mathematics and Computer Science )
 Technical University of Delft, Delft, 2023
 ### Atheneum NG+NT (Pre-university education with Science, Biology and technology profile)
@@ -17,12 +17,12 @@ Helinium, Hellevoetsluis, 2020
 ## 🏭 Experience
 ### Software engineer & Support engineer
 NetW - Stellendam<br>
-2016 - Now<br>
+2016 - 2024<br>
 *I was tasked with creating and maintaining software for an IT company. We use this software inhouse, but we also make custom software for our clients. I also setup and maintain networks, servers, workstations and more, I deliver customer support to our clients and I help with the development of new products and services.*
 
 ### Student assistant
 Technical University of Delft - Delft<br>
-2021 - Now<br>
+2021 - 2023<br>
 *I helped students with their projects and assignments for multiple courses about programming in python and microcontrollers using circuitpython.*
 
 ## 🎓 Courses and Certificates
