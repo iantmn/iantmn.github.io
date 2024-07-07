@@ -18,7 +18,7 @@ During my studies I have also done some projects with microcontrollers, like the
 
 ## ✨ My experience
 
-I started working at NetW since 2016 as a support engineer, but I quickly started to develop software for the company after my minor. I developed tools to connect different software together and to automate tasks. I created a digital signage system for some of our clients and I created a tool for our support engineers to quickly pull the neccesary information about a client when they call from our CRM. I have also setup and maintained networks, servers, workstations and more while delivering customer support to our clients.
+I started working in 2016 as a support engineer, but I quickly started to develop software for the company after my minor. I developed tools to connect different software together and to automate tasks. I created a digital signage system for some of our clients and I created a tool for our support engineers to quickly pull the neccesary information about a client when they call from our CRM. I have also setup and maintained networks, servers, workstations and more while delivering customer support to our clients.
 
 While I was studying at the TU Delft I was also a student assistant for some courses. I helped students with their projects and assignments for multiple courses about programming in python and microcontrollers using circuitpython.
 
