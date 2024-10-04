@@ -6,10 +6,10 @@ permalink: /posts/2024/7/ThesisKubo/
 categories: [Projects, 🖥️ Software Development]
 tags: [Education 🎓, Climate control system 🖥️, Greenhouse 🪴]
 pin: true
-published: false
+published: true
 ---
 
-For the full (dutch) report [click here!](/assets/KuboThesis.pdf)
+**Do you want to know more? Don't hesitate to contact me!**
 
 Kubo greenhouses challenged me for my bachelor thesis to make their own greenhouse design named the Ultra-Clima more sustainable and efficient. While researching I found out a couple of things:
 - The climate control systems on the market are not optimal for the Ultra-Clima greenhouse, because they are designed for the standard Venlo greenhouse.
@@ -19,7 +19,7 @@ Kubo greenhouses challenged me for my bachelor thesis to make their own greenhou
 
 With this information I started to think about how I could fix these problems. As is customary in the field of Industrial Design Engineering, I created a frame, a design statement, I used co-creation sessions with the stakeholders, I created prototypes to test my ideas, I iterated on the prototypes and I created a final product. The final product is a climate control system that can control the climate in the Ultra-Clima greenhouse, but also in other greenhouses.
 
-The system consists of a couple of parts:
+The system consists of these key parts:
 - A climate control system that can control the climate in the greenhouse and read information from sensors, just like the current systems on the market, but it is optimised for the Ultra-Clima greenhouse (or any other greenhouse).
 - With this data an AI model is trained to predict the climate in the greenhouse, so the horticulturalist can see what the climate will be in the future and can take action if necessary.
   - The AI model is also used to give advice to the horticulturalist about what actions they can take to improve the climate in the greenhouse
@@ -32,7 +32,5 @@ The system consists of a couple of parts:
 ![alt text](/assets/img/Kubothesis-Render-dashboard.svg "Title")
 
 ![alt text](/assets/img/Kubothesis-Render-settings.svg "Title")
-
-An important part of this system is that horitculturalists are asked to provide feedback when the prediction of the AI model is not the same as the actual climate in the greenhouse. This way the AI model can learn from the feedback and improve the predictions over time. This is called a positive feedback loop.
 
 ![alt text](/assets/img/Kubothesis-Render-feedback.svg "Title")
