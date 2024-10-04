@@ -28,9 +28,4 @@ The system consists of these key parts:
 - This system can also be used to train new horticulturalists, because the AI model can explain why it takes certain actions and what the effect of these actions will be. This way the horticulturalist can learn from the AI model and can take over the control of the greenhouse when they are ready.
   - In addition to that an experienced horticulturalist can use the AI model to predict the climate in the greenhouse, so they can focus on other tasks and only take over the control of the greenhouse when necessary as well as take over the control of multiple greenhouses at the same time.
 
-
-![alt text](/assets/img/Kubothesis-Render-dashboard.svg "Title")
-
-![alt text](/assets/img/Kubothesis-Render-settings.svg "Title")
-
-![alt text](/assets/img/Kubothesis-Render-feedback.svg "Title")
+<iframe width="750" height="420" src="https://www.youtube.com/embed/o3TrRHFEE-0" title="Thesis Kubo Ultra-Climate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin: 0 auto; display: block;"></iframe>
