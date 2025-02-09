@@ -2,7 +2,7 @@
 title: "💶 Stripe Checkout Integration"
 description: "Integrating Stripe Checkout in a multi-tenant booking platform to enable secure and seamless payments."
 date: 2024-11-14
-permalink: /posts/2025/1/FINTECHPubSub/
+permalink: /posts/2025/1/StripeCheckout/
 categories: [Projects, 🖥️ Software Development]
 tags: [Stripe 💶, Booking software 📅]
 pin: false
