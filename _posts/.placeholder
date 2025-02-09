@@ -1,1 +1,10 @@
+---
+title: "Test Post"
+date: 2024-01-05
+categories: [test category]
+tags: [test tag]
+pin: false
+published: false
+---
 
+This is the text of the post.
