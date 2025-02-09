@@ -4,24 +4,26 @@ permalink: /about/
 order: 5
 ---
 
-Hi, I am Ian Tiemann, a software engineer from the Netherlands with a background in Industrial Design Engineering from the TU Delft and computer science in Breda. I am interested in all kinds of software development, but I am especially interested in backend development and in the intersection between software and hardware, like embedded systems and IoT. Machine learning is also something I am interested in, primarily implementing machine learning models in software.
+Hi, I'm Ian Tiemann, a software engineer from the Netherlands with a background in Industrial Design Engineering from TU Delft and currently pursuing computer science studies in Breda. I’m passionate about all aspects of software development, with a particular focus on **project management**, **backend development** and the intersection of software and hardware, such as **embedded systems and IoT**. I’m also deeply interested in **machine learning**, especially in implementing machine learning models into software.
+
+I also have multiple years of experience in IT. I started out als IT support engineer and eventually **managed projects and clients** on my own.
 
 ## 🏫 My education
 
-During my study Industrial Design Engineering I have learned to design products and services for people and companies, which are desirable, feasible and viable. We conducted research about how products and services are used and how they can be improved. We also learned how to design and build prototypes to test our ideas, how to work in multidisciplinary teams and to communicate with different stakeholders. Although this study does not focus on software engineering, I learned a lot of skills that are usefull for software development.
+My degree in Industrial Design Engineering has provided me with a broad skill set for designing products and services that are both desirable and practical for users and businesses. I’ve studied how to research user needs, improve existing products, and prototype solutions. Working in multidisciplinary teams and effectively communicating with different stakeholders has also been a key part of my education. While this program isn’t focused on software engineering, I gained valuable skills that have proven beneficial in my software development career.
 
-Design thinking is a method that is used to solve problems and find desirable solutions for users. It is a human-centered approach to innovation that draws from the designer's toolkit to integrate the needs of people, the possibilities of technology, and the requirements for business success.
+I’m a strong advocate for Design Thinking, a problem-solving approach centered on human needs, technology possibilities, and business requirements. It’s a mindset that fuels innovation and guides my approach to both design and development.
 
-I did a minor in Engineering with Artificial Intelligence, so I also have some experience with machine learning and data science, which I found very interesting. During this minor I have made a product that can analyse how a design concept is being used by the end-user to inform the designer about possible improvements. See the project [here]({{ site.baseurl }}{% link _posts/2023-2-13-MinorCapstoneAI.md %}).
+In addition, I completed a minor in **Engineering with Artificial Intelligence**, where I explored machine learning and data science. One notable project was developing a tool that analyzes how design concepts are used by end-users to help designers refine their ideas. You can read more about this project [here]({{ site.baseurl }}{% link _posts/2023-2-13-MinorCapstoneAI.md %}).
 
-During my studies I have also done some projects with microcontrollers, like the Arduino and Circuitpython devices, the Raspberry Pi and other single board computers.
+I’ve also worked on various projects with microcontrollers, servers and networks. I have experience with Python, C, and CircuitPython, and I’m eager to expand my knowledge and skills in other programming languages and technologies.
 
 ## ✨ My experience
 
-I started working in 2016 as a support engineer, but I quickly started to develop software for the company after my minor. I developed tools to connect different software together and to automate tasks. I created a digital signage system for some of our clients and I created a tool for our support engineers to quickly pull the neccesary information about a client when they call from our CRM. I have also setup and maintained networks, servers, workstations and more while delivering customer support to our clients.
+I have multiple years of experience in IT, starting as an IT support engineer and eventually **managing projects and clients independently**. In 2022, I transitioned into software development during my minor, where I developed tools to connect software systems and automate tasks. This included creating a digital signage system for clients and a tool to help support engineers retrieve customer information from our CRM efficiently. Alongside this, I’ve maintained networks, servers, and workstations, providing customer support where needed.
 
-While I was studying at the TU Delft I was also a student assistant for some courses. I helped students with their projects and assignments for multiple courses about programming in python and microcontrollers using circuitpython.
+While studying at TU Delft, I also worked as a student assistant, guiding students through Python programming and microcontroller projects, helping them with assignments and practical applications of their learning. Next to that I also gave lectures to students about programming in Python.
 
 ## 🚩 What is my goal?
 
-I want to learn more about computer science and software development. I've had some more advanced courses about programming in python, but I want to learn more about other programming languages, computer science in general and software argitecture. I want to develop my skills in a larger team with a different tech stack and the process of developing software in a team. All while delivering value to the company and the clients and studing computer science at the same time.
+I’m eager to continue growing as a software engineer and ultimately transition into a **technical project manager** role. I want to develop my leadership skills, manage cross-functional teams, and contribute to the strategic planning and successful delivery of software projects. While I’ve completed advanced courses in Python programming, I’m also keen to expand my knowledge in other programming languages, dive deeper into computer science, and explore software architecture. 

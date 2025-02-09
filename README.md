@@ -1,43 +1,43 @@
-# Chirpy Starter
+# My personal website
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
 [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+![Pages deploy](https://github.com/iantmn/iantmn.github.io/actions/workflows/pages-deploy.yml/badge.svg)
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+[iantiemann.nl](iantiemann.nl) is my personal website, where I share my projects and experiences in software development and engineering. I also share my resume and some other information about me.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## Credits
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+This project was built primarily with the [Jekyll][jekyllrb] ecosystem,
+[Bootstrap][bootstrap], [Font Awesome][icons], and some other [wonderful tools][lib].
+The avatar and favicon design from [Clipart Max][image].
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
-
-## Usage
-
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
-
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+Many thanks to the [contributors][contributors] who participated in the development
+and to the folks who reported bugs or shared ideas.
 
 ## License
 
-This work is published under [MIT][mit] License.
+This project is published under [MIT License][license].
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+[jekyllrb]: https://jekyllrb.com/
+[bootstrap]: https://getbootstrap.com/
+[icons]: https://fontawesome.com/
+[image]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
+[demo]: https://cotes2020.github.io/chirpy-demo/
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
+[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
+[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
+[lib]: https://github.com/cotes2020/chirpy-static-assets
+[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+[ko-fi]: https://ko-fi.com/coteschung/
+[donation]: https://sponsor.cotes.page/
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[use-template]: https://github.com/cotes2020/chirpy-starter/generate
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE

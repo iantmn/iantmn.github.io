@@ -1,6 +1,6 @@
 ---
-title: "🤖 Capstone project of the Minor Engineering with Artificial Intelligence: Using AI to classify how a product is used"
-description: "For my minor Engineering with Artificial Intelligence I did a capstone project. The goal of this product was to create a tool that enables Industrial Designers to analyse how a product is used in the real world using sensors."
+title: "🤖 AI Minor Project: Leveraging AI to Analyze and Classify Product Usage in the Engineering with Artificial Intelligence Minor"
+description: "For my Minor in Engineering with Artificial Intelligence, I worked on a project aimed at creating a tool to help Industrial Designers analyze how a product is used in the real world using sensor data."
 date: 2023-02-13
 permalink: /posts/2023/02/MinorCapstoneAI/
 categories: [Projects, 🖥️ Software Development]
@@ -8,22 +8,73 @@ tags: [Education 🎓, AI 🤖]
 pin: true
 ---
 
-For the full report [click here!](/assets/capstoneAI-report.pdf)
+## Project Overview:
 
-For my minor Engineering with Artificial Intelligence I did a capstone project. The goal of this project was to create a tool that enables Industrial Designers to analyse how a product is used in the real world using sensors. Normally this is done by using a video camera and manually analysing the video. This is a time consuming process and it is difficult to get accurate results. The tool we created uses a machine learning model to analyse the sensor data and automatically detect the usage of the product. This way the Industrial Designer can get accurate results in a short amount of time.
+In traditional product usage analysis, video cameras are commonly used to record and analyze how a product is used. However, this process is time-consuming and often yields less accurate results. The goal of our project was to develop a tool that utilizes machine learning to automatically analyze sensor data and detect the product’s usage. This solution allows Industrial Designers to gain accurate insights in a fraction of the time.
 
-We started off with a literature study to find out what already exists in this field and what models are often used for analysing sensor data. We found out that there are a couple of models that are often used for analysing sensor data. After that we started the make a preprocessing pipeline to prepare the data for the machine learning model. We used the data from the sensors of a gopro camera. We used the accelerometer, gyroscope and magnetometer data. We also used the video data from the gopro camera. We used the video data to label the data.
+## Project Process:
 
-The preprocessing pipeline consists out of multiple steps. First we synchronised the data from the sensors and the video. Then we used a sliding window to split the data into smaller parts. After that we extracted some features like the central power, peak value frequency, and more. We also used the [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform) to extract the frequency domain features.
+### 1. 📖 Literature Study & Model Selection:
 
-After that we started to create a machine learning model. We used a random forrest classifier because of its good performance, its ability to handle a lot of data and the fact that it is relativly fast to train. We want our user to be able to use the tool at real time and this was therefore very important.
+We began by conducting a literature study to understand the existing solutions in this field and the machine learning models frequently used to analyze sensor data. This helped us identify key models that could be effective for our task.
+### 2. ⚙️ Preprocessing the Data:
 
-After that we choose a Jupyter notebook as our interface because it was easy to setup and it was easy to use. Due to limited time we couldn't make a web interface. However this is something that can be done in the future. All functions that are used are made into modules so that they can be used in a web interface.
+To prepare the sensor data for machine learning, we created a comprehensive preprocessing pipeline. The data was sourced from a GoPro camera’s sensors: accelerometer, gyroscope, and magnetometer. We also used the video data from the camera to label the sensor data.
 
-During the project we noticed that we could use a form of [active learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)) to make sure a user gets the best results with the least amount of data. Every iteration the user is prompted to label the data that the model is most uncertain about.
+Preprocessing Steps:
 
-At the end we also made a basic type of novelty detection. This is a form of [anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection). This is useful for detecting when a product is used in a way it is not designed for. For example, when running shoes are used for hiking. This is useful for Industrial Designers because they can use this information to improve their product.
+- Data Synchronization: We synchronized the sensor and video data to ensure they aligned correctly.
+- Sliding Window: We used a [**sliding window technique**](https://www.geeksforgeeks.org/window-sliding-technique/) to split the data into smaller, manageable chunks.
+- Feature Extraction: Features such as central power, peak value frequency, and others were extracted. Additionally, we applied the [**Fast Fourier Transform (FFT)**](https://en.wikipedia.org/wiki/Fast_Fourier_transform) to extract frequency domain features.
 
-We also made a user manual to explain how to use the tool. This was in the form of a guided tour in the Jupyter notebook and a [website](https://datacentricdesign.github.io/iot-ml-design-kit/).
+### 3. 🤖 Machine Learning Model:
 
-For more information about the project, see the [GitHub repository](https://github.com/iantmn/Capstone-AI-IoT) or [the website we made](https://datacentricdesign.github.io/iot-ml-design-kit/) for the project.
+After an analysis for different ML models, we chose a [**Random Forest classifier**](https://www.ibm.com/think/topics/random-forest) for the machine learning model. Its strong performance, ability to handle large datasets, and relatively fast training time made it ideal for fast analysis.
+
+### 4. 🖥️ Interface Development:
+
+We opted for a Jupyter Notebook interface due to its ease of use and quick setup. While we lacked the time to build a web interface, all functions were modularized, making future web integration feasible.
+
+### 5. 🏃‍♂️ Active Learning:
+
+We discovered that [**active learning**](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)) could enhance the model’s performance by selecting the most uncertain data points for the user to label. This ensured that the model received the most relevant data, minimizing the amount of labeling required. We created a custom algorithm to analyse which datapoint we should ask.
+
+### 6. 🔍 Novelty Detection:
+
+We incorporated novelty detection (a form of [**anomaly detection**](https://www.ibm.com/think/topics/machine-learning-for-anomaly-detection)) to identify when a product is being used in an unintended way. For example, detecting if running shoes are being used for hiking. This feature helps Industrial Designers identify potential product flaws, areas for improvement or opportunities.
+
+## Results: 
+
+### 1. ⏱️ Fast Analysis:
+
+The machine learning model processes sensor data much faster than manual analysis, allowing Industrial Designers to receive insights about how a product is being used. This eliminates the need for time-consuming manual analysis, enabling designers to quickly iterate on product designs or make adjustments based on how the product is performing in real-world conditions. For every hour of footage, manual annotation takes two hours. Our model can give results about dozens of hours of footage in an hour work.
+
+### 2. 📊 Accurate Data-Driven Insights:
+
+By automatically classifying product usage, the tool provides accurate, quantitative insights about how a product is being used. This reduces the risk of human error that can come with video-based analysis or subjective judgment, ensuring that designers have access to reliable data to make informed decisions.
+
+### 3. 📈 Scalability & Flexibility:
+
+The system is designed to scale across different product types. While the initial prototype focused on products with GoPro sensors, the tool can be adapted for other products with sensor data, making it versatile for a wide range of applications in industrial design. The modularity of the system also makes it easy to add more sensors or adjust the analysis pipeline to suit different needs.
+
+### 4. 👟 Improved Product Design:
+
+By identifying patterns in how a product is used, the tool highlights potential design flaws that may not have been initially apparent. For example, it can detect that a product is used incorrectly, leading to straining. This allows Industrial Designers to rethink certain design elements and improve the product’s overall user experience.
+
+### 5. 🔍 Novelty Detection (Anomaly Detection):
+
+The tool incorporates novelty detection, which is particularly useful in identifying unusual or unexpected usage patterns. This feature is valuable for discovering when a product is being used in ways that were not anticipated, allowing designers to make proactive changes to the design or develop new features to meet unaddressed user needs.
+
+## Challenges:
+1. **📹Sensor Data Noise:** The sensor data from GoPro devices, especially accelerometers and gyroscopes, often contained noise. This posed a challenge in distinguishing between useful and irrelevant information, requiring sophisticated filtering techniques and data cleaning to improve the accuracy of the model.
+2. **🏷️ Data Labeling:** Creating a framework where data and video are synchronised and can be labeled by a user took time to develop. The active learning algorithm helped reduce the amount of manual labeling required, but first creating a system that could handle this was a challenge.
+3. **🤖 Model Overfitting:** Training the model on a limited dataset led to overfitting, where the classifier performed well on the training data but struggled with unseen data. To address this, we used techniques like cross-validation and increased the dataset size to improve the generalization of the model.
+4. **⚙️ Data Processing:** Processing sensor data in was a challenge, particularly in ensuring the model could classify product usage quickly enough to provide actionable insights. Using advanced techniques like the Fast Fourier Transform helped extract relevant features efficiently.
+5. **🧩 Diverse Product Types:** The initial prototype was focused on a specific product with GoPro sensors, and adapting the tool to work with other product types, such as wearables or home appliances, required additional adjustments. Creating a flexible architecture was necessary for future scalability.
+6. **⏩ Performance**: Ensuring the tool could handle large datasets efficiently and provide real-time feedback during labeling and analysis was crucial. Optimizing the model’s performance and the tool’s responsiveness was a continuous challenge.
+
+## Additional Resources:
+
+- For a more detailed report, [click here](/assets/capstoneAI-report.pdf).
+- For the GitHub repository: [Click here](https://github.com/iantmn/Capstone-AI-IoT).
+- For the website we created for this project: [Click here](https://datacentricdesign.github.io/iot-ml-design-kit/).
