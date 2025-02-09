@@ -132,4 +132,3 @@ If you start this docker-compose file, Traefik will automatically detect the ser
 Traefik is a powerful tool that makes managing multiple services on a docker compose server easy. It has a lot of features that make it very flexible and easy to use. I hope this post has helped you to set up Traefik and configure it for your own server. If you have any questions or feedback, feel free get in contact!
 
 For more information, see the [Traefik documentation](https://doc.traefik.io/traefik/).
-```
