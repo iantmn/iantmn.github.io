@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 ![Pages deploy](https://github.com/iantmn/iantmn.github.io/actions/workflows/pages-deploy.yml/badge.svg)
 
-[www.iantiemann.nl](https://www.iantiemann.nl) is my personal website, where I share my projects and experiences in software development and engineering. I also share my resume and some other information about me.
+[www.iantiemann.nl](https://www.iantiemann.nl) is my personal website, where I share my projects and experiences in software development, engineering & project management. I also share my resume and some other information about me.
 
 ## Credits
 
