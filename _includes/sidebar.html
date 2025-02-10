@@ -59,9 +59,14 @@
           {%- endcapture -%}
         {% when 'email' %}
           {% assign email = site.social.email | split: '@' %}
-          {%- capture url -%}
-            javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-          {%- endcapture -%}
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var emailLink = document.querySelector('a[aria-label="email"]');
+              if (emailLink) {
+                emailLink.href = 'mailto:' + '{{ email[0] }}' + '@' + '{{ email[1] }}';
+              }
+            });
+          </script>
         {% when 'rss' %}
           {% assign url = '/feed.xml' | relative_url %}
         {% else %}
