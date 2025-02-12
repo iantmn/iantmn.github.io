@@ -4,7 +4,7 @@ description: "For a FINTECH company I integrated PubSub for their refund logic, 
 date: 2025-1-17
 permalink: /posts/2025/1/FINTECHPubSub/
 categories: [Projects, 🖥️ Software Development]
-tags: [FINTECH 💶]
+tags: [FINTECH 💶, PubSub 📬]
 pin: false
 published: true
 ---
