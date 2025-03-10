@@ -7,8 +7,8 @@ order: 4
 
 # Ian Tiemann
 ## 🏫 Education
-### HBO (AD) Computer Science
-Avans, Breda, 2026 (expected)
+### HBO (Propaedeutic) Computer Science
+Avans, Breda, 2025 (expected)
 - Specialization in software development
 - Focus on backend development, software architecture, agile methodologies, databases and cloud computing
 
@@ -25,7 +25,7 @@ Technical University of Delft, Delft, 2023
 Helinium, Hellevoetsluis, 2020
 
 ## 🏭 Experience
-### Software engineer & Support engineer
+### Software engineer
 Notive - Zwijndrecht<br>
 2024 - heden<br>
 *Notive specializes in tailor-made software for industries such as FinTech and Smart Manufacturing.*
@@ -33,7 +33,7 @@ Notive - Zwijndrecht<br>
   - Using modern programming languages and techniques
 - Providing technical support and troubleshooting
 
-### Software engineer & Support engineer
+### Software engineer & Project manager
 NetW - Stellendam<br>
 2016 - 2024<br>
 *NetW is an IT company specializing in managing complex IT infrastructures for medium-sized businesses. It provides end-to-end IT solutions, ensuring seamless operations and top-tier service.*
@@ -41,6 +41,8 @@ NetW - Stellendam<br>
 - Managed networks, servers, and IT infrastructure
 - Provided customer support and contributed to new product development
 - Project and client management
+- Stakeholder management
+- Product development
 
 ### Student assistant
 Technical University of Delft - Delft<br>
