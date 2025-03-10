@@ -3,7 +3,7 @@ title: "🤖 AI Minor Project: Leveraging AI to Analyze and Classify Product Usa
 description: "For my Minor in Engineering with Artificial Intelligence, I worked on a project aimed at creating a tool to help Industrial Designers analyze how a product is used in the real world using sensor data."
 date: 2023-02-13
 permalink: /posts/2023/02/MinorCapstoneAI/
-categories: [Projects, 🖥️ Software Development - Minor AI]
+categories: [Projects, 🤖 Software Development - Minor AI]
 tags: [Education 🎓, AI 🤖]
 pin: true
 ---

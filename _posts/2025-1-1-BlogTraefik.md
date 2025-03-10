@@ -3,8 +3,8 @@ title: "🛜 Using Traefik V3 as a Reverse Proxy for a docker compose server"
 description: "I implemented Traefik as a reverse proxy to manage multiple services in a docker compose server. This post explains how to set up Traefik and configure it."
 date: 2025-2-5
 permalink: /posts/2025/2/traefik/
-categories: [Blog posts, 🛜 Networking]
-tags: [Traefik 🛜]
+categories: [Guides, 🛜 Networking]
+tags: [Traefik 🛜, Docker 🐳, Networking 🛜, Reverse Proxy 🔀]
 pin: false
 published: true
 ---

@@ -3,8 +3,8 @@ title: "🤖 Bachelor thesis: Climate Control System for a high-tech greenhouse"
 description: "For my bachelor thesis, I developed an advanced climate control system tailored for high-tech greenhouses. The goal was to optimize growing conditions, improving plant yield and quality while enhancing sustainability."
 date: 2024-7-7
 permalink: /posts/2024/7/ThesisKubo/
-categories: [Projects, 🖥️ Software Development - Thesis]
-tags: [Education 🎓, Climate control system 🖥️, Greenhouse 🪴]
+categories: [Projects, 🎓 Software Development - Thesis]
+tags: [Education 🎓, Climate control system 🌡️, Greenhouse 🪴]
 pin: true
 published: true
 ---
