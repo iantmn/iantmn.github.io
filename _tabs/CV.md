@@ -5,6 +5,8 @@ permalink: /CV/
 order: 4
 ---
 
+# Ian Tiemann
+## 🏭 Experience
 ### Project manager
 NetW - Stellendam<br>
 2025 - now<br>
@@ -15,8 +17,6 @@ NetW - Stellendam<br>
 - Managing networks, servers, and IT infrastructure
 - Providing customer support
 
-# Ian Tiemann
-## 🏭 Experience
 ### Software engineer
 Notive - Zwijndrecht<br>
 2024 - 2025<br>
