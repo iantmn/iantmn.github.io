@@ -5,29 +5,21 @@ permalink: /CV/
 order: 4
 ---
 
+### Project manager
+NetW - Stellendam<br>
+2025 - now<br>
+*NetW is an IT company specializing in managing complex IT infrastructures for medium-sized businesses. It provides end-to-end IT solutions, ensuring seamless operations and top-tier service.*
+- Project and client management
+- Stakeholder management
+- Product development
+- Managing networks, servers, and IT infrastructure
+- Providing customer support
+
 # Ian Tiemann
-## 🏫 Education
-### HBO (Propaedeutic) Computer Science
-Avans, Breda, 2025 (expected)
-- Specialization in software development
-- Focus on backend development, software architecture, agile methodologies, databases and cloud computing
-
-### B.S. Industial design engineering (Faculty Industrial Design Engineering)
-Technical University of Delft, Delft, 2025
-- Specialization in product design & engineering
-- Focus on innovation and project management
-
-### Minor Engineering with Artificial Intelligence (Faculty Electrical Engineering, Mathematics and Computer Science )
-Technical University of Delft, Delft, 2023
-- Focus on AI applications in engineering and technology fields
-
-### Atheneum NG+NT (Pre-university education with Science, Biology and technology profile)
-Helinium, Hellevoetsluis, 2020
-
 ## 🏭 Experience
 ### Software engineer
 Notive - Zwijndrecht<br>
-2024 - heden<br>
+2024 - 2025<br>
 *Notive specializes in tailor-made software for industries such as FinTech and Smart Manufacturing.*
 - Developing backend solutions for various clients
   - Using modern programming languages and techniques
@@ -37,9 +29,9 @@ Notive - Zwijndrecht<br>
 NetW - Stellendam<br>
 2016 - 2024<br>
 *NetW is an IT company specializing in managing complex IT infrastructures for medium-sized businesses. It provides end-to-end IT solutions, ensuring seamless operations and top-tier service.*
-- Developed and maintained in-house and client software solutions
-- Managed networks, servers, and IT infrastructure
-- Provided customer support and contributed to new product development
+- Developing and maintaining in-house and client software solutions
+- Managing networks, servers, and IT infrastructure
+- Providing customer support
 - Project and client management
 - Stakeholder management
 - Product development
@@ -50,6 +42,24 @@ Technical University of Delft - Delft<br>
 - Assisted students in Python programming and microcontroller-based projects
 - Provided guidance in CircuitPython coursework
 - Gave lectures & individual assessments
+
+## 🏫 Education
+### HBO (Propaedeutic) Computer Science
+Avans, Breda, 2025 (expected)
+- Specialization in software development
+- Focus on backend development, software architecture, agile methodologies, databases and cloud computing
+
+### B.S. Industial design engineering (Faculty of Industrial Design Engineering)
+Technical University of Delft, Delft, 2025
+- Specialization in product design & engineering
+- Focus on innovation and project management
+
+### Minor Engineering with Artificial Intelligence (Faculty Electrical Engineering, Mathematics and Computer Science )
+Technical University of Delft, Delft, 2023
+- Focus on AI applications in engineering and technology fields
+
+### Atheneum NG+NT (Pre-university education with Science, Biology and technology profile)
+Helinium, Hellevoetsluis, 2020
 
 ## 🎓 Courses and Certificates
 ### CS50: Introduction to Computer Science
@@ -62,6 +72,17 @@ Technical University of Delft - Delft<br>
 2017 - Anglia - More info [here](https://www.anglia.org/anglia-proficiency-exam-c1-cefr)
 
 ## 🛠️ Skills
+
+### 👨‍💻 Project management
+
+| Category                 | Technologies & Tools |
+|--------------------------|----------------------|
+| **PM methods**           | Gantt charts, roadmaps, Agile, Scrum, etc. |
+| **Planning & Execution** | Scope definition, milestone tracking, backlog prioritization, stakeholder alignment |
+| **Risk Assessment**      | Risk assessment, mitigation strategies, contingency planning, issue tracking |
+| **Communication**        | Team leadership, stakeholder management, conflict resolution, client relations, cross-functional collaboration |
+| **Business**             | Innovation implementation, problem-solving, cost optimization, ROI analysis, process improvement |
+| **Tools**                | Jira, Git, Confluence, etc. |
 
 ### 🖥️ Software Development
 
