@@ -45,7 +45,7 @@ Technical University of Delft - Delft<br>
 
 ## 🏫 Education
 ### HBO (Propaedeutic) Computer Science
-Avans, Breda, 2025 (expected)
+Avans, Breda, 2025
 - Specialization in software development
 - Focus on backend development, software architecture, agile methodologies, databases and cloud computing
 
