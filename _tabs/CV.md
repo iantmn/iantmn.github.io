@@ -7,7 +7,7 @@ order: 4
 
 # Ian Tiemann
 ## 🏭 Experience
-### Project manager
+### Project engineer
 NetW - Stellendam<br>
 2025 - now<br>
 *NetW is an IT company specializing in managing complex IT infrastructures for medium-sized businesses. It provides end-to-end IT solutions, ensuring seamless operations and top-tier service.*
