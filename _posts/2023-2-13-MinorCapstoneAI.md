@@ -75,6 +75,6 @@ The tool incorporates novelty detection, which is particularly useful in identif
 
 ## Additional Resources:
 
-- For a more detailed report, [click here](/assets/capstoneAI-report.pdf).
+- For a more detailed report, [click here](/assets/capstoneAI-report.pdf). Be aware that this report is missing some appendices, as these contained data of a sensitive nature. Such as information about the participants in the study.
 - For the GitHub repository: [Click here](https://github.com/iantmn/Capstone-AI-IoT).
 - For the website we created for this project: [Click here](https://datacentricdesign.github.io/iot-ml-design-kit/).
