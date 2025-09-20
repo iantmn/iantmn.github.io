@@ -11,6 +11,8 @@ order: 4
 NetW - Stellendam<br>
 2025 - now<br>
 *NetW is an IT company specializing in managing complex IT infrastructures for medium-sized businesses. It provides end-to-end IT solutions, ensuring seamless operations and top-tier service.*
+
+As a project engineer at NetW, I am responsible for overseeing and managing various IT projects from inception to completion. My primary focus lays in managing our own product development called the CloudModule. This device is a networking appliance that provides secure connectivity and cloud services for businesses. I also manage our internal IT infrastructure and our day-to-day IT operations. My responsibilities include:
 - Project and client management
 - Stakeholder management
 - Product development
@@ -21,14 +23,18 @@ NetW - Stellendam<br>
 Notive - Zwijndrecht<br>
 2024 - 2025<br>
 *Notive specializes in tailor-made software for industries such as FinTech and Smart Manufacturing.*
+
+During my time at Notive, I worked as a software engineer focusing on backend development. I created software solutions to companies in Fintech, warehousing, industry and more. My responsibilities included:
 - Developing backend solutions for various clients
-  - Using modern programming languages and techniques
+- Using modern programming languages and techniques
 - Providing technical support and troubleshooting
 
-### Software engineer & Project manager
+### IT Specialist, Software engineer & Project manager
 NetW - Stellendam<br>
 2016 - 2024<br>
 *NetW is an IT company specializing in managing complex IT infrastructures for medium-sized businesses. It provides end-to-end IT solutions, ensuring seamless operations and top-tier service.*
+
+Over a span of 8 years I held various roles within the company, including IT specialist, software engineer, and project manager. My responsibilities included:
 - Developing and maintaining in-house and client software solutions
 - Managing networks, servers, and IT infrastructure
 - Providing customer support
@@ -58,12 +64,9 @@ Technical University of Delft, Delft, 2025
 Technical University of Delft, Delft, 2023
 - Focus on AI applications in engineering and technology fields
 
-### Atheneum NG+NT (Pre-university education with Science, Biology and technology profile)
-Helinium, Hellevoetsluis, 2020
-
 ## 🎓 Courses and Certificates
 ### CS50: Introduction to Computer Science
-2023 - Harvard University - More info [here](https://cs50.harvard.edu/x/2024/) and [here](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science)
+2023 - Harvard University - More info [here](https://cs50.harvard.edu/x/) and [here](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science)
 ### Technasium certificate (Technology project based education)
 2020 - Stichting Technasium - More info [here](https://technasium.nl/what-is-technasium/)
 ### Tutor in het probleemgestuurd onderwijs (Problem based learning tutor)
