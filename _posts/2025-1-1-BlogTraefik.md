@@ -4,7 +4,7 @@ description: "I implemented Traefik as a reverse proxy to manage multiple servic
 date: 2025-2-5
 permalink: /posts/2025/2/traefik/
 categories: [Guides, 🛜 Networking]
-tags: [Traefik 🛜, Docker 🐳, Networking 🛜, Reverse Proxy 🔀]
+tags: [Traefik 🛜, Docker 🐳, Networking 🛜, Reverse Proxy 🔀, DevOps ⚙️]
 pin: false
 published: true
 ---
