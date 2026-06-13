@@ -28,7 +28,7 @@ Three components, one of which you already have:
 ```
 ┌────────────────────────── Docker host ─────────────────────────────────┐
 │                                                                        │
-│  🐳 traefik   🐳 authelia   🐳 grafana   🐳 ...                      │
+│  🐳 traefik   🐳 forgejo   🐳 grafana   🐳 ...                       │
 │      │            │             │          │                           │
 │      └────────────┴──────┬──────┴──────────┘                           │
 │                          │ container logs (Docker API)                 │
@@ -223,7 +223,7 @@ LogQL works in two stages: select streams with labels, then filter and parse the
 rate({container="authelia"} |= "Unsuccessful" [1m])
 ```
 
-That last one is a metric *derived from logs*, which means you can graph it, put it on the dashboard from the monitoring guide, and alert on it. Someone hammering the login portal from the [Authelia guide](/posts/2026/6/AutheliaTraefik/) now shows up as a spike in a panel.
+That last one is a metric *derived from logs*, which means you can graph it, put it on the dashboard from the monitoring guide, and alert on it. Someone hammering the login portal from Authelia now shows up as a spike in a panel.
 
 ### Step 6: Keep the host disk safe
 
@@ -266,11 +266,11 @@ If you see "entry too far behind" errors after restoring or replaying old logs, 
 - Define [Loki alerting rules](https://grafana.com/docs/loki/latest/alert/) so a flood of errors pages you the same way a metric threshold does
 - Collect the host's systemd journal with `loki.source.journal`, and your Proxmox nodes' logs while you are at it
 - Switch Traefik's access log to JSON format and build a dashboard of status codes and response times per router, parsed straight from the logs
-- Put the Alloy debug UI behind Traefik with the [Authelia middleware](/posts/2026/6/AutheliaTraefik/) instead of leaving it internal-only
+- Put the Alloy debug UI behind Traefik with Authelia, Authentik or any other authentication method instead of leaving it internal-only
 - When a second host joins the party, run one Alloy per host, all pushing to the same central Loki
 
 ## Conclusion
 
-The monitoring stack from the [previous guide](/posts/2026/5/PrometheusGrafanaMonitoring/) told you that something broke; with Loki and Alloy attached to the same Grafana, you can now also see why, across every container, going back 31 days, with one query. Metrics for the what, logs for the why, and both behind the same [Authelia](/posts/2026/6/AutheliaTraefik/) login.
+The monitoring stack from the [previous guide](/posts/2026/5/PrometheusGrafanaMonitoring/) told you that something broke; with Loki and Alloy attached to the same Grafana, you can now also see why, across every container, going back 31 days, with one query. Metrics for the what, logs for the why and both connected via Traefik and authentication (if you have it set up).
 
 💡 Want to learn more about observability for self-hosted setups, or how this scales up to production log volumes? Feel free to reach out!
