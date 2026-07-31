@@ -199,6 +199,6 @@ If sync jobs are slow even with little changed data, check whether a GC or verif
 
 ## Conclusion
 
-With a local PBS datastore for fast daily restores, a nightly sync to a Hetzner Storage Box for disasters, and client-side encryption so the offsite copy is unreadable to anyone but you, the homelab finally satisfies the 3-2-1 rule without enterprise prices. Combined with the [Traefik](/posts/2025/2/traefik/), [monitoring](/posts/2026/5/PrometheusGrafanaMonitoring/), and [Authelia](/posts/2026/6/AutheliaTraefik/) setups from the previous guides, the stack is now routed, observed, locked down, and backed up.
+With a local PBS datastore for fast daily restores, a nightly sync to a Hetzner Storage Box for disasters, and client-side encryption so the offsite copy is unreadable to anyone but you, the homelab finally satisfies the 3-2-1 rule without enterprise prices. Combined with the [Traefik](/posts/2025/2/traefik/) & [monitoring](/posts/2026/5/PrometheusGrafanaMonitoring/) setups from the previous guides, the stack is now routed, observed, locked down, and backed up.
 
 💡 Want to learn more about backup strategies for Proxmox, or need help setting this up for production workloads? Feel free to reach out!
