@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 40" width="208" height="40">
+  <rect width="40" height="40" rx="9" fill="#122033"></rect>
+  <text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-family="&#39;Space Grotesk&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif" font-weight="700" font-size="20" letter-spacing="-1.2"><tspan fill="#3d84e6">I</tspan><tspan fill="#9dc4f5">T</tspan></text>
+  <text x="52" y="20.5" dominant-baseline="central" font-family="&#39;Space Grotesk&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif" font-weight="700" font-size="21" letter-spacing="-0.63" fill="#f2f4f7">Ian Tiemann</text>
+</svg>
