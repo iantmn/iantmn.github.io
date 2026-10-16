@@ -14,13 +14,13 @@ I developed a connector for [AFAS Software](https://www.afas.nl/), a leading Dut
 
 ## Key Features
 
-🔗 AFAS Integration – The connector synchronizes data between the AFAS ERP system and the key management system, streamlining the management of employee access rights.
+🔗 AFAS Integration: The connector synchronizes data between the AFAS ERP system and the key management system, streamlining the management of employee access rights.
 
-💻 Python & REST API – Built using Python, the connector communicates with AFAS via its Get Connector API, a REST API designed to retrieve data from AFAS.
+💻 Python & REST API: Built using Python, the connector communicates with AFAS via its Get Connector API, a REST API designed to retrieve data from AFAS.
 
-📈 Data Transformation – The retrieved data, delivered as JSON, is converted into a CSV format for easier integration with the key management system.
+📈 Data Transformation: The retrieved data, delivered as JSON, is converted into a CSV format for easier integration with the key management system.
 
-🔑 Secure API Communication – The API uses a token-based authentication to ensure secure communication between the connector and AFAS.
+🔑 Secure API Communication: The API uses a token-based authentication to ensure secure communication between the connector and AFAS.
 Technical Details
 
 The connector relies on the requests library to interact with the AFAS API. The process involves generating a token to authenticate the connection, retrieving the necessary data, and converting it into a CSV file for use by the key management system. For more details, the AFAS Get Connector API is thoroughly documented on the AFAS website.
@@ -29,11 +29,11 @@ This solution significantly simplifies the process of managing employee access a
 
 ## Challenges & Learnings
 
-🔐 Authentication & Token Management – Managing the token-based authentication for the AFAS API required careful attention to security and token expiration. Ensuring that tokens were securely stored and refreshed was crucial for seamless integration.
+🔐 Authentication & Token Management: Managing the token-based authentication for the AFAS API required careful attention to security and token expiration. Ensuring that tokens were securely stored and refreshed was crucial for seamless integration.
 
-⚙️ API Limitations & Constraints – The AFAS API, while powerful, has some limitations in terms of data retrieval and processing. Understanding these constraints early on helped avoid unnecessary complexity during development.
+⚙️ API Limitations & Constraints: The AFAS API, while powerful, has some limitations in terms of data retrieval and processing. Understanding these constraints early on helped avoid unnecessary complexity during development.
 
-💡 Optimizing Performance – As the connector handled a large amount of data, I had to optimize its performance to ensure quick synchronization without overloading the system. Efficient error handling and logging were essential to identify and address any issues in real-time.
+💡 Optimizing Performance: As the connector handled a large amount of data, I had to optimize its performance to ensure quick synchronization without overloading the system. Efficient error handling and logging were essential to identify and address any issues in real-time.
 
 This project provided valuable experience in API integration, data transformation, and system performance optimization, while overcoming the challenges of working with external systems and ensuring smooth communication between different platforms.
 

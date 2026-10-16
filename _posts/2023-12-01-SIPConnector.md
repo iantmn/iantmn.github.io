@@ -16,15 +16,15 @@ The connector, built in Python, bridges communication between the SIP server (vi
 
 ## Key Features
 
-✅ Automated Call Handling – Extracts caller information from SIP messages and retrieves customer details from Vtiger's database.
+✅ Automated Call Handling: Extracts caller information from SIP messages and retrieves customer details from Vtiger's database.
 
-📊 One-Click Ticket Creation – Generates a pop-up in Vtiger CRM, allowing support agents to create tickets instantly.
+📊 One-Click Ticket Creation: Generates a pop-up in Vtiger CRM, allowing support agents to create tickets instantly.
 
-🔍 SIP Integration with Regex Processing – Uses regex to extract key details from SIP messages for accurate data retrieval.
+🔍 SIP Integration with Regex Processing: Uses regex to extract key details from SIP messages for accurate data retrieval.
 
-🖥️ Softphone Functionality with pyVoIP – Leverages pyVoIP to receive SIP messages, process call data, and display real-time notifications.
+🖥️ Softphone Functionality with pyVoIP: Leverages pyVoIP to receive SIP messages, process call data, and display real-time notifications.
 
-🔔 Windows Toast Notifications – Provides instant pop-ups with customer information, linking directly to the relevant Vtiger CRM page.
+🔔 Windows Toast Notifications: Provides instant pop-ups with customer information, linking directly to the relevant Vtiger CRM page.
 
 ## Challenges & Learnings
 Integrating SIP with a CRM was a complex task due to the intricacies of the SIP protocol. Understanding how to extract meaningful data from SIP messages took significant effort. By using pyVoIP, regex parsing, and database queries, I successfully created a seamless and efficient automation solution.

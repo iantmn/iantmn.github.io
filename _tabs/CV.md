@@ -76,70 +76,72 @@ Technical University of Delft, Delft, 2023
 
 ## 🛠️ Skills
 
-### 👨‍💻 Project management
+### 👔 Project Management
 
-| Category                 | Technologies & Tools |
-|--------------------------|----------------------|
-| **PM methods**           | Gantt charts, roadmaps, Agile, Scrum, etc. |
-| **Planning & Execution** | Scope definition, milestone tracking, backlog prioritization, stakeholder alignment |
-| **Risk Assessment**      | Risk assessment, mitigation strategies, contingency planning, issue tracking |
-| **Communication**        | Team leadership, stakeholder management, conflict resolution, client relations, cross-functional collaboration |
-| **Business**             | Innovation implementation, problem-solving, cost optimization, ROI analysis, process improvement |
-| **Tools**                | Jira, Git, Confluence, etc. |
+| Category | Capabilities |
+|----------|--------------|
+| **Delivery** | Agile and Scrum delivery, roadmapping, scope and milestone management |
+| **Risk & governance** | Risk assessment, mitigation planning, change control, issue escalation |
+| **Stakeholders** | Client, supplier and contractor management; partner delivery models |
+| **Commercial** | Cost-driven architecture, ROI analysis, process improvement |
+| **Tools** | Jira, Confluence, HaloPSA, OpenProject |
 
-### 🖥️ Software Development
+### 🖥️ IT Infrastructure & Networking
 
-| Category              | Technologies & Tools |
-|-----------------------|----------------------|
-| **Programming**       | Python, PHP, JavaScript/TypeScript, Go (learning) |
-| **Frameworks**        | Django (REST Framework) |
-| **Data Science**      | Pandas, NumPy, Matplotlib, Jupyter Notebook |
-| **Machine Learning**  | Scikit-learn, TensorFlow |
-| **Databases**         | MySQL, other relational databases |
-| **Web & APIs**        | REST APIs, File Handling, Data Processing |
-| **Markup & Styling**  | HTML, CSS, Markdown |
-| **Embedded**          | CircuitPython |
+| Category | Capabilities & representative platforms |
+|----------|------------------------------------------|
+| **Network architecture** | Multi-site, multi-tenant network design; VLAN segmentation; IP address planning at scale |
+| **Firewall & edge** | pfSense at fleet scale, with standardised scripted configurations across 20+ sites |
+| **Secure connectivity** | Site-to-site and remote-access VPN design (WireGuard, OpenVPN), reverse proxy and TLS (Traefik) |
+| **Virtualisation** | Proxmox VE (clustering, HA, live migration, SDN), VMware, LXC and VM templates |
+| **Server platforms** | Linux (Debian, Ubuntu, Alpine, NixOS) and Windows Server; golden-image standardisation |
+| **Storage & containers** | ZFS operations and capacity planning; Docker and Docker Compose at scale |
+| **Cloud & tenant administration** | Microsoft 365 and Entra ID across multiple client tenants, delegated access (GDAP) |
+| **Telephony** | FusionPBX / FreeSWITCH, SIP trunking and carrier integration, number administration |
 
-### 🤖 Technologies
+### 🔒 Security, Identity & Compliance
 
-| Category                      | Technologies & Tools |
-|-------------------------------|----------------------|
-| **Version Control**           | Git, GitHub, GitLab (Pages & Actions/Pipelines) |
-| **Containers & DevOps**       | Docker & Docker Compose, Kubernetes (learning), Jenkins (learning), argoCD (learning) |
-| **Server operating Systems**  | Linux (Ubuntu, Debian, NixOS, Manjaro), Windows (Server) |
-| **Virtualisation**            | Proxmox, VMWare |
-| **Embedded Systems**          | Raspberry Pi, Arduino, M4 Express Microcontroller (CircuitPython) |
-| **Cloud & IT Management**     | Office 365 & Azure Management |
-| **CMS & Web Platforms**       | WordPress |
+| Category | Capabilities & representative platforms |
+|----------|------------------------------------------|
+| **Identity & access** | Centralised SSO and federation on modern standards (OAuth2 / OIDC); Entra ID, Authentik |
+| **Access control** | Least-privilege and defence-in-depth design, multi-tenant isolation |
+| **Privileged access** | Jump-host architecture with session recording and auditing (Devolutions PAM) |
+| **Operational security** | Secrets management, certificate lifecycle automation, vulnerability remediation |
+| **Compliance** | ISO 27001 implementation planning, NIS2 readiness, customer security questionnaires |
 
-### 📐 Design & Project Management
+### ⚙️ Automation, Monitoring & Operations
 
-| Category                | Skills |
-|-------------------------|--------|
-| **Design Skills**       | Design Thinking, User Research, Prototyping |
-| **Project Management**  | Agile Methodologies, Stakeholder Management, Innovation Implementation |
+| Category | Capabilities & representative tools |
+|----------|--------------------------------------|
+| **Infrastructure as code** | Declarative provisioning and configuration management (Ansible, OpenTofu/Terraform) |
+| **CI/CD & GitOps** | Pipeline design, automated merge-to-deploy, rollback strategy and audit trail |
+| **Monitoring at scale** | Multi-tenant monitoring with distributed collection and host autoregistration (Zabbix) |
+| **Observability** | Metrics, logging and alerting pipelines; dashboard design; alert noise reduction |
+| **Backup & recovery** | 3-2-1 design, RPO/RTO definition, offsite replication, scheduled restore testing |
 
-### 💻 Design Software
+### 👨‍💻 Software Development & Integrations
 
-| Software type     | Tools |
-|-------------------|-------|
-| **Adobe Suite**   | Photoshop, InDesign, Premiere Pro |
-| **UI/UX Tools**   | Figma |
-| **3D & CAD**      | SolidWorks (Basics), Blender (Learning) |
+| Category | Capabilities & representative tools |
+|----------|--------------------------------------|
+| **Languages** | Python, Bash/Shell, PowerShell, SQL/T-SQL, PHP |
+| **Integration engineering** | REST API and webhook design, token lifecycle, idempotency, retry and reconciliation |
+| **Business systems** | ERP, CRM, PSA and payment connectors (AFAS, Vtiger, HaloPSA, Stripe) |
+| **Data & databases** | PostgreSQL, Microsoft SQL Server, MySQL/MariaDB; migrations, upgrades, recovery |
+| **Engineering practice** | Version control and review (Git), defensive scripting, structured error handling |
+
+### 🤖 AI & Applied Machine Learning
+
+| Category | Capabilities & representative tools |
+|----------|--------------------------------------|
+| **Applied AI** | Speech-to-text and LLM summarisation pipelines integrated into business systems |
+| **Cost engineering** | Evaluating vendor AI features against build alternatives on cost per transaction |
+| **Machine learning** | Supervised classification and active learning on sensor data, feature engineering |
+| **Emerging practice** | Vector search and retrieval, agent and tool integration (MCP), AI-assisted engineering |
+| **Platforms & tooling** | Azure OpenAI, Azure Speech, scikit-learn, TensorFlow, pandas, Jupyter |
 
 ### 💬 Languages
 
-| Language      | Proficiency |
-|---------------|------------|
-| **Dutch**     | Native |
-| **English**   | Proficient (Anglia AcCEPT Proficiency Certificate) |
-
-### 🪄 Other Skills
-
-| Soft Skills         |   |
-|---------------------|---|
-| Problem Solving     | Adaptability |
-| Communication       | Networking |
-| Initiative          | Presenting |
-| Customer Support    | Teamwork |
-| Creativity          | Project Management |
+| Language | Proficiency |
+|----------|-------------|
+| **Dutch** | Native |
+| **English** | Proficient (Anglia AcCEPT Proficiency Certificate) |

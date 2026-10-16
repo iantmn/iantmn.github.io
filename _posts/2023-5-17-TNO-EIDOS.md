@@ -24,7 +24,7 @@ C-K Theory, or Concept-Knowledge Theory, is a framework that explains how new id
 
 ![CK-diagram](assets/img/ck-diagram.png)
 
-## Innovative Solution – The C-K Funnel:
+## Innovative Solution: The C-K Funnel
 
 Using insights from C-K theory, we developed a new portfolio management funnel designed to be more flexible and iterative. Traditional funnels often require projects to be either moved forward or discarded, but our model allows projects to loop back into earlier stages for refinement, ensuring they are not prematurely discarded or stagnated.
 
@@ -32,10 +32,10 @@ The new funnel integrates a way to measure project progress, allowing stakeholde
 
 ## Challenges & Learnings:
 
-🎯 Understanding TNO's Unique Needs – Each department at TNO had its own perspective on what makes a project worth pursuing. This variability made it challenging to unify a single set of criteria for project evaluation. The interviews helped us identify common ground and allowed us to design a more flexible system that could accommodate different needs.
+🎯 Understanding TNO's Unique Needs: Each department at TNO had its own perspective on what makes a project worth pursuing. This variability made it challenging to unify a single set of criteria for project evaluation. The interviews helped us identify common ground and allowed us to design a more flexible system that could accommodate different needs.
 
-🔄 Applying C-K Theory – Incorporating a theoretical model like C-K into a real-world setting posed challenges in terms of making it practical and actionable. However, adapting the theory to fit TNO's specific needs was a rewarding experience, showcasing the importance of iterative improvement in decision-making processes.
+🔄 Applying C-K Theory: Incorporating a theoretical model like C-K into a real-world setting posed challenges in terms of making it practical and actionable. However, adapting the theory to fit TNO's specific needs was a rewarding experience, showcasing the importance of iterative improvement in decision-making processes.
 
-📈 Data-Driven Decision Making – Through the interviews and data analysis, we realized how important it is for organizations to leverage employee insights in the decision-making process. Balancing qualitative insights with quantitative data helped us create a solution that was not only innovative but also grounded in the reality of TNO's current operations.
+📈 Data-Driven Decision Making: Through the interviews and data analysis, we realized how important it is for organizations to leverage employee insights in the decision-making process. Balancing qualitative insights with quantitative data helped us create a solution that was not only innovative but also grounded in the reality of TNO's current operations.
 
 💡 Want to learn more? Feel free to contact me!

@@ -24,7 +24,7 @@ Using an Industrial Design Engineering approach, I framed the problem, developed
 
 ### Key Features
 
-✅ Smart Climate Control – Monitors and regulates the greenhouse environment using real-time sensor data, optimized specifically for Ultra-Clima greenhouses.
+✅ Smart Climate Control: Monitors and regulates the greenhouse environment using real-time sensor data, optimized specifically for Ultra-Clima greenhouses.
 
 🤖 AI-Powered Insights & Automation
 - Predicts future climate conditions, enabling horticulturalists to take proactive measures.
