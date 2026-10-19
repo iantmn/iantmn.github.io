@@ -1,4 +1,9 @@
-<!-- Umami (self-hosted, overrides theme default script.js path) -->
+<!-- Umami (self-hosted): page tracking + session recorder -->
+<script
+  defer
+  src="{{ site.analytics.umami.domain }}/script.js"
+  data-website-id="{{ site.analytics.umami.id }}"
+></script>
 <script
   defer
   src="{{ site.analytics.umami.domain }}/recorder.js"
