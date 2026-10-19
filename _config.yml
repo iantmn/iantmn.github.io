@@ -51,8 +51,8 @@ analytics:
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
-    id: 70344e91-3d4e-47bb-b06e-a2468529621d
-    domain: https://cloud.umami.is
+    id: 8f616bab-2eb4-4e0a-afd2-06db26cd6913
+    domain: https://stats.infra.iantiemann.nl
   matomo:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
