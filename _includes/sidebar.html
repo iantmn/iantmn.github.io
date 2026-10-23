@@ -113,57 +113,56 @@
       {% endif %}
     {% endunless %}
 
-    {% for entry in site.data.contact %}
-      {% case entry.type %}
-        {% when 'github', 'twitter' %}
-          {%- capture url -%}
-            https://{{ entry.type }}.com/{{ site[entry.type].username }}
-          {%- endcapture -%}
-        {% when 'email' %}
-          {% assign email = site.social.email | split: '@' %}
-          <script>
-            document.addEventListener('DOMContentLoaded', function() {
-              var emailLink = document.querySelector('a[aria-label="email"]');
-              if (emailLink) {
-                emailLink.href = 'mailto:' + '{{ email[0] }}' + '@' + '{{ email[1] }}';
-              }
-            });
-          </script>
-        {% when 'rss' %}
-          {% assign url = '/feed.xml' | relative_url %}
-        {% else %}
-          {% assign url = entry.url %}
-      {% endcase %}
+    <!-- contact links, written out individually so each gets its own Umami event -->
+    <a
+      href="https://github.com/{{ site.github.username }}"
+      aria-label="github"
+      target="_blank"
+      rel="noopener noreferrer"
+      data-umami-event="github profile click"
+      data-umami-event-location="sidebar"
+    >
+      <i class="fab fa-github"></i>
+    </a>
 
-      {% if url %}
-        <a
-          href="{{ url }}"
-          aria-label="{{ entry.type }}"
-          {% assign link_types = '' %}
+    <!-- the mailto href is filled in by script to keep the address out of the HTML -->
+    {% assign email = site.social.email | split: '@' %}
+    <a
+      href="#"
+      aria-label="email"
+      data-umami-event="email click"
+      data-umami-event-location="sidebar"
+    >
+      <i class="fas fa-envelope"></i>
+    </a>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var emailLink = document.querySelector('a[aria-label="email"]');
+        if (emailLink) {
+          emailLink.href = 'mailto:' + '{{ email[0] }}' + '@' + '{{ email[1] }}';
+        }
+      });
+    </script>
 
-          {% unless entry.noblank %}
-            target="_blank"
-            {% assign link_types = 'noopener noreferrer' %}
-          {% endunless %}
+    <a
+      href="https://www.linkedin.com/in/ian-tiemann/"
+      aria-label="linkedin"
+      target="_blank"
+      data-umami-event="linkedin click"
+      data-umami-event-location="sidebar"
+    >
+      <i class="fab fa-linkedin-in"></i>
+    </a>
 
-          {% if entry.type == 'mastodon' %}
-            {% assign link_types = link_types | append: ' me' | strip %}
-          {% endif %}
-
-          {% unless link_types == empty %}
-            rel="{{ link_types }}"
-          {% endunless %}
-        >
-          <i class="{{ entry.icon }}"></i>
-        </a>
-      {% endif %}
-    {% endfor %}
-    <a href="https://www.linkedin.com/in/ian-tiemann/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a href="{{site.url}}/feed.xml" target="_blank">
-        <i class="fas fa-rss"></i>
-      </a>
+    <a
+      href="{{ site.url }}/feed.xml"
+      aria-label="rss"
+      target="_blank"
+      data-umami-event="rss click"
+      data-umami-event-location="sidebar"
+    >
+      <i class="fas fa-rss"></i>
+    </a>
   </div>
   <!-- .sidebar-bottom -->
 </aside>
