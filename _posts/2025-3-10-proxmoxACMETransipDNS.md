@@ -41,7 +41,7 @@ API data:	TRANSIP_Username=<USERNAME>
 
 If you use a global key in step 2, add one more line to the API data:
 ```
-			TRANSIP_Token_Global_Key=true
+TRANSIP_Token_Global_Key=true
 ```
 
 ## 2. Transip API key
@@ -77,22 +77,53 @@ Proxmox renews automatically from here, roughly thirty days before expiry.
 
 ## Choosing a key type
 
-TransIP ties API tokens to an IP address by default. Your node has to prove it is allowed to use the key, and there are two ways to arrange that.
+**Use a whitelisted key if you can.** It is the default, it is the stronger of the two, and it costs you nothing extra. Only reach for a global key when your node's outgoing IP address is something you genuinely cannot pin down.
 
-**A whitelisted key** only works from addresses you listed in the TransIP control panel. This is the stronger option: if the key ever leaks, it is useless from anywhere else. It is also the default.
+Whichever you pick, the setting in the TransIP control panel and the line in the API data have to match:
 
-**A global key** works from any address. Internally the plugin asks TransIP for a token with `global_key: true`, which is what the `TRANSIP_Token_Global_Key=true` line does.
+| "Only allow whitelisted IP's" | `TRANSIP_Token_Global_Key` | Result |
+|---|---|---|
+| Checked | leave it out | Works, but only from the whitelisted IP addresses |
+| Unchecked | `true` | Works from any IP address |
+| Checked | `true` | Does not work |
 
-Use a whitelisted key if you have a static external IP address and a single node. Use a global key if any of these apply:
+That third row is the easy mistake to make, because it looks like the fix. Adding the line to a key that was created as restricted does not promote it: TransIP will not hand out a global token for a key that is locked to a whitelist, which is rather the point of the whitelist.
+
+### What a global key actually is
+
+The name misleads, because it is not a different kind of key at all. It describes the token.
+
+TransIP authentication runs in three stages. First there is the **key pair** you create in the control panel, whose private half ends up in `/etc/transip-private-key.pem`. That key is never used directly against the API. Instead the plugin uses it to **sign a request for a temporary access token**, which TransIP hands over if the signature checks out. acme.sh asks for a token that lives thirty minutes. Only then does the plugin make the **actual API calls** that create and later remove the `_acme-challenge` TXT record.
+
+`global_key` is a field in that middle stage, the token request:
+
+```json
+{"login":"...","nonce":"...","read_only":"false","expiration_time":"30 minutes","label":"","global_key":"false"}
+```
+
+So it is a property of the token you ask for, not of the key you hold. The checkbox in the control panel decides whether the key is allowed to request such a token, and the line in the API data decides whether it actually does. That is the whole reason both halves are needed, and why one idea ends up with three names: TransIP calls it *Only allow whitelisted IP's*, the API field is `global_key`, and acme.sh calls the variable `TRANSIP_Token_Global_Key`.
+
+It is worth being precise about what a global key costs you, because it is less than people assume and more than nothing. A global token is **not** less authenticated: the request still has to be signed with your private key, or TransIP issues nothing at all. What you give up is one layer:
+
+- With a whitelist, an attacker needs your private key **and** has to reach TransIP from an address you approved
+- With a global key, your private key is the only thing in the way
+
+Which is also why the key file is the thing to protect, rather than the token. A token expires in thirty minutes. A private key does not expire at all.
+
+### When to go global anyway
+
+Pick the global key if any of these apply:
 
 - Your WAN IP address is dynamic, which covers most home and small office connections
 - Your node prefers IPv6 for outgoing connections, so TransIP sees a v6 address rather than the v4 one you whitelisted
 - You run a cluster whose nodes leave the network through different addresses
 - You are behind CGNAT, a VPN, or policy routing, so the address TransIP sees is not the one you expect
 
-The reason this matters more than it first appears is the way whitelisting fails. Ordering the certificate works, because you whitelisted the correct address that afternoon. Then your WAN address changes and the **renewal** fails, roughly sixty days later. Proxmox renews on a timer, so nothing tells you at the time. You find out when a certificate expires, or when you happen to open a task log.
+The reason this matters more than it first appears is the way whitelisting fails when it was the wrong choice. Ordering the certificate works, because you whitelisted the correct address that afternoon. Then your WAN address changes and the **renewal** fails, roughly sixty days later. Proxmox renews on a timer, so nothing tells you at the time. You find out when a certificate expires, or when you happen to open a task log.
 
-Two things to remember if you go global. Both halves are required: setting `TRANSIP_Token_Global_Key=true` against a key that was created as whitelist-restricted still fails, because TransIP will not issue a global token for a restricted key. And create a **separate key pair** just for ACME rather than reusing one you already use elsewhere, so you can revoke it on its own. That key can add and delete DNS records for every domain in the account, so it deserves the same care as a password.
+So the advice is not to whitelist at any cost. It is to whitelist when your address holds still, and to switch deliberately when it does not, rather than finding out two months later.
+
+If you do go global, create a **separate key pair** just for ACME rather than reusing one you already use elsewhere, so you can revoke it on its own. That key can add and delete DNS records for every domain in the account, and with a global key it is the only thing protecting them.
 
 ## Why the key file needs nogroup
 
